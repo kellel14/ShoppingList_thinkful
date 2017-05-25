@@ -1,82 +1,155 @@
-/* styles */
-/* called by your view template */
-
-/* You might want to try something fancier: */
-/* less: http://lesscss.org/ */
-
 * {
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	/*-webkit-appearance: none;*/
+	list-style: none;
 }
 
 body {
-  font-family: helvetica, arial, sans-serif;
-  margin: 25px;
+	background-color: #999999;
+	background-image: url('../images/grocery-bg.jpg');
+	background-size: 1280px 900px;
+	background-repeat: repeat-y;
+	font-family: Arial, 'sans-serif';
+	font-weight: bold;
+	color: #131313;
 }
 
-h1 {
-  font-weight: bold;
-  color: pink;
+.heading {
+	background-color: rgba(255,255,255,0.8);
+	text-align: center;
+	padding: 3em;
+	box-shadow: 0 0 0 #e5e5e5,0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
 }
 
-.bold {
-  font-weight: bold;
+.heading h1 {
+	font-family: 'Kameron', serif;
+	font-size: 3em;
 }
 
-p {
-  max-width: 600px;
+@media (max-width: 510px) {
+	.heading h1 {
+		font-size: 2em;
+	}
 }
 
-form {
-  margin-bottom: 25px;
-  padding: 15px;
-  background-color: cyan;
-  display: inline-block;
-  width: 100%;
-  max-width: 340px;
-  border-radius: 3px;
+.heading span {
+	color: #339933;
 }
 
-input {
-  display: block;
-  margin-bottom: 10px;
-  padding: 5px;
-  width: 100%;
-  border: 1px solid lightgrey;
-  border-radius: 3px;
-  font-size: 16px;
+.heading p {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 300;
+	margin-top: -6px;
 }
 
-button {
-  font-size: 16px;
-  border-radius: 3px;
-  background-color: lightgrey;
-  border: 1px solid grey;
-  box-shadow: 2px 2px teal;
-  cursor: pointer;
+.list-content {
+	width: 600px;
+	margin: 0 auto;
+	font-size: 1.2em;
 }
 
-button:hover {
-  background-color: yellow;
+@media (max-width: 630px) {
+	.list-content {
+		width: 90%;
+		margin: 0 auto;
+	}
 }
 
-button:active {
-  box-shadow: none;
+.item-input > p,
+.shopping-list li,
+.add-item {
+	padding: 0.6em 1em;
+	cursor:pointer;
 }
 
-li {
-  margin-bottom: 5px;
+.shopping-list,
+.add-item {
+	background-color: rgba(255,255,255,0.6);
+	color: #9f9f9f;
+	box-shadow: 0 0 0 #e5e5e5,0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
 }
 
-footer {
-  margin-top: 50px;
-  padding-top: 25px;
-  border-top: 1px solid lightgrey;
+.item-input {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	color: #131313;
+	background-color: rgba(255,255,255,0.8);
+	padding: 0.6em 1em;
+	margin-top: 1em;
+	border: 1px solid transparent;
+	width: 100%;
+	box-shadow: 0 0 0 #e5e5e5,0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
 }
 
-footer > a {
-  color: #BBBBBB;
+.item-input:hover {
+	border: 1px solid #ffffff;
+	background-color: rgb(255,255,255);
 }
 
-.nicejob {
-  text-decoration: line-through;
+.shopping-list {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.shopping-list li {
+	color: #131313;
+	background-color: rgba(255,255,255,0.8);
+	margin-bottom: 0.2em;
+	word-wrap: break-word;
+}
+
+.shopping-list li:hover,
+.add-item:hover {
+	background-color: rgb(255,255,255);
+}
+
+.shopping-list li:last-child {
+	margin-bottom: 0;
+}
+
+.add-item {
+	color: #131313;
+	width: 250px;
+	margin: 0px 10px;
+	text-align: center;
+	display: inline-block;
+	float: right;
+}
+
+.list-content > a {
+	color: inherit;
+	text-decoration: inherit;
+	margin: 0 auto;
+}
+
+.item-check {
+	display: inline-block;
+	position: absolute;
+	width: 22px;
+	height: 21px;
+	cursor: pointer;
+}
+
+.incomplete {
+	background-image: url('../images/incomplete.png');
+}
+
+.complete {
+	background-image: url('../images/complete.png');
+}
+
+.item-text {
+	margin-left: 2em;
+	width: 22px;
+	height: 21px;
+}
+
+.item-remove {
+	float: right;
+	cursor: pointer;
 }
