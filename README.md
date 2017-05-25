@@ -19,7 +19,9 @@ Things you might want to Google:
 
 
 Step 1: Adding an item
-- edit `public/client.js`
+- when a user adds an item's name and clicks add, that item is added to the list
+- 
+- add your code to the `Step 1` section in `public/client.js` 
 
 -------------------
 
