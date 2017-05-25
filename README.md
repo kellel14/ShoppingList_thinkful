@@ -6,15 +6,18 @@ Click `Show` in the header to see your app live. Updates to your code will insta
 Project Overview
 ------------
 
-On the front-end,
-- edit `public/client.js`, `public/style.css` and `views/index.html`
-- drag in `assets`, like images or music, to add them to your project
+For this project,
+- you will mainly be working inside `public/client.js`
+- you will also work inside `views/index.html` and `public/style.css`
+- you can drag in `assets` such as images to add them to your project
+- you can ignore all the other files :)
 
-On the back-end,
-- your app starts at `server.js`
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env` (nobody can see this but you and people you invite)
+Things to Google off the bat
+  document.ready
+
+Step 1: Adding an item
+- edit `public/client.js`
 
 -------------------
 
-Made with <3 at Thinkful
+**Made with <3 at Thinkful**
