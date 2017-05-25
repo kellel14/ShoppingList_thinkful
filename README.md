@@ -6,22 +6,21 @@ Click `Show` in the header to see your app live. Updates to your code will insta
 Project Overview
 ------------
 
-For this project:
+For this project
 - you will mainly be working inside `public/client.js`
 - you will also work inside `views/index.html` and `public/style.css`
 - you can drag in `assets` such as images to add them to your project
 - you can ignore all the other files :)
 
 
-Things you might want to Google:
-- your Javascript code is inside `$(document).ready(function() { })`. Why?
-- 
+**Things you might want to Google**
+- What is `var` in Javascript? If you don't know, make sure to Google it!
+- your Javascript code is inside `$(document).ready(function() { })`. Why? 
 
 
-Step 1: Adding an item
-- when a user adds an item's name and clicks add, that item is added to the list
-- 
-- add your code to the `Step 1` section in `public/client.js` 
+**Step 1: Adding an item (when someone clicks `Add Item`)**
+- in `Step 1` we've added an "event listener" which runs the code between the curly brackets when `Add Item` is clicked
+- we've given you the HTML you'll add to the `shopping-list` section when the button is clicked. That HTML is stored in the variable `itemHtml`
 
 -------------------
 
