@@ -4,11 +4,9 @@ $(document).ready(function() {
 // -------------------
 	$(".add-item").on('click', function(event) {
 		var listItem = $(".item-input").val();
-			var itemHtml = "<li class='items'><span class='item-check incomplete'></span><span class='item-text'>" + listItem + "</span><span class='item-remove'><img src='images/remove.png' alt='remove' width='20px'></span></li>";
-			if(listItem.length > 0) {
-				$(".shopping-list").prepend(itemHtml);
-				$(".item-input").val("");
-			}
+		var itemHtml = "<li class='items'><span class='item-check incomplete'></span><span class='item-text'>" + listItem + "</span><span class='item-remove'><img src='https://cdn.glitch.com/72548e86-2a07-45d1-9756-a034ea6672b3%2Fremove.png?1495684443965' alt='remove' width='20px'></span></li>";
+    // add your code here
+    
 	});
 // -------------------
 
@@ -16,13 +14,7 @@ $(document).ready(function() {
 // Step 2
 // -------------------
 	$(".shopping-list").on('click', '.item-check', function(event) {
-		if($(this).hasClass( "incomplete" )) {
-			$(this).removeClass("incomplete");
-			$(this).addClass("complete");
-		} else {
-			$(this).removeClass("complete");
-			$(this).addClass("incomplete");
-		}
+      // add your code here
 	});
 // -------------------
 
@@ -30,7 +22,7 @@ $(document).ready(function() {
 // Step 3
 // -------------------
 	$(".shopping-list").on('click', '.item-remove', function(event) {
-		$(this).parent().remove();
+      // add your code here
 	});
 // -------------------
 
