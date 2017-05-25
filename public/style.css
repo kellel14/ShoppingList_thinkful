@@ -9,13 +9,17 @@
 }
 
 body {
-	background-color: #999999;
+  background-color: #999999;
 	background-image: url('https://cdn.glitch.com/72548e86-2a07-45d1-9756-a034ea6672b3%2Fgrocery-bg.jpg?1495684429681');
 	background-size: 1280px 900px;
 	background-repeat: repeat-y;
 	font-family: Arial, 'sans-serif';
 	font-weight: bold;
 	color: #131313;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50%;
 }
 
 .heading {
