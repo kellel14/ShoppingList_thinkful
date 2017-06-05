@@ -4,7 +4,7 @@ $(document).ready(function() {
 // -------------------
 	$(".add-item").on('click', function(event) {
 		  var listItem = $(".item-input").val();
-		  var itemHtml = "<li class='items'><span class='item-check'></span><span class='item-text'>" + listItem + "</span><span class='item-remove'><img src='https://cdn.glitch.com/72548e86-2a07-45d1-9756-a034ea6672b3%2Fremove.png?1495684443965' alt='remove' width='20px'></span></li>";
+		  var itemHtml = "<li class='items'><span class='item-check'></span><span class='item-text'>" + listItem + "</span><span class='item-remove'></span></li>";
       // add your code here
 	});
 // -------------------
