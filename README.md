@@ -14,7 +14,7 @@ Introduction
 **Things you might want to Google**
 - What is `var` in Javascript? If you don't know, make sure to Google it!
 - Your Javascript code is inside `$(document).ready(function() { })`. Why? 
-- For `Step 3` you might want to dig more into "traversing" with jQuery
+- For `Step 2` you might want to dig more into "traversing" with jQuery
 
 Challenges
 ==========
