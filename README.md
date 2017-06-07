@@ -38,9 +38,9 @@ Cheat Sheet
 - For `Step 2` you might want to dig more into "traversing" with jQuery
 
 **Key Topic Review**
-- Slides Link (TODO)
-- "Document Object Model" (TODO)
-- "Selecting Sections + Traversing" (TODO)
+- [Overview of DOM](http://eloquentjavascript.net/13_dom.html)
+- [Selecting with jQuery](https://www.w3schools.com/jquery/jquery_selectors.asp)
+- [Traversing with jQuery](https://code.tutsplus.com/tutorials/10-really-helpful-traversing-functions-in-jquery--net-6619)
 - "Key jQuery Functions" (TODO)
 - "Event Listeners" (TODO)
 - "this" (TODO)
