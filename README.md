@@ -10,12 +10,6 @@ Introduction
 - You can drag in `assets` such as images to add them to your project
 - You can ignore all the other files :)
 
-
-**Things you might want to Google**
-- What is `var` in Javascript? If you don't know, make sure to Google it!
-- Your Javascript code is inside `$(document).ready(function() { })`. Why? 
-- For `Step 2` you might want to dig more into "traversing" with jQuery
-
 Challenges
 ==========
 
@@ -29,12 +23,27 @@ Challenges
 
 **Step 3: Making an item inactive (when someone clicks the checkbox)**
 - In `Step 2` we've added an "event listener" which runs the code between the curly brackets when the checkbox is clicked
-- The shopping item will become inactive when the `complete` class is added 
+- The shopping item will become inactive when the `complete` class is added. The shopping item will become active again when the `complete` class is removed.
 
 **More jQuery Challenges**
 - If you add an item with no text, it adds a blank box. This is a bug! Fix it.
 - Use jQuery to animate the adding and removing of items
 - Add a counter that tells the user how many items are in your shopping list
+
+Cheat Sheet
+==========
+**Things you might want to Google**
+- What is `var` in Javascript? If you don't know, make sure to Google it!
+- Your Javascript code is inside `$(document).ready(function() { })`. Why? 
+- For `Step 2` you might want to dig more into "traversing" with jQuery
+
+**Key Topic Review**
+- Slides
+- "Document Object Model"
+- "Selecting Sections + Traversing"
+- "Key jQuery Functions"
+- "Event Listeners"
+- "this"
 
 -------------------
 
