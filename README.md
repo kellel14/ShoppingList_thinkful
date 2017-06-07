@@ -37,13 +37,13 @@ Cheat Sheet
 - Your Javascript code is inside `$(document).ready(function() { })`. Why? 
 - For `Step 2` you might want to dig more into "traversing" with jQuery
 
-**Key Topic Review**
+**Helpful Links**
 - [Overview of DOM](http://eloquentjavascript.net/13_dom.html)
+- [jQuery Basics](http://blog.teamtreehouse.com/beginners-guide-to-jquery)
 - [Selecting with jQuery](https://www.w3schools.com/jquery/jquery_selectors.asp)
 - [Traversing with jQuery](https://code.tutsplus.com/tutorials/10-really-helpful-traversing-functions-in-jquery--net-6619)
-- "Key jQuery Functions" (TODO)
-- "Event Listeners" (TODO)
-- "this" (TODO)
+- [Common jQuery Functions](https://www.w3schools.com/jquery/jquery_ref_html.asp)
+- [Event Listeners](http://jqfundamentals.com/chapter/events)
 
 -------------------
 
