@@ -38,12 +38,12 @@ Cheat Sheet
 - For `Step 2` you might want to dig more into "traversing" with jQuery
 
 **Key Topic Review**
-- Slides
-- "Document Object Model"
-- "Selecting Sections + Traversing"
-- "Key jQuery Functions"
-- "Event Listeners"
-- "this"
+- Slides Link (TODO)
+- "Document Object Model" (TODO)
+- "Selecting Sections + Traversing" (TODO)
+- "Key jQuery Functions" (TODO)
+- "Event Listeners" (TODO)
+- "this" (TODO)
 
 -------------------
 
