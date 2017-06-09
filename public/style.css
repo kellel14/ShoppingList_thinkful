@@ -9,11 +9,10 @@
 }
 
 body {
-  background-color: #999999;
-	background-image: url('https://cdn.glitch.com/72548e86-2a07-45d1-9756-a034ea6672b3%2Fgrocery-bg.jpg?1495684429681');
+  background-color: #6799ff;
 	background-size: 1280px 900px;
 	background-repeat: repeat-y;
-	font-family: Arial, 'sans-serif';
+  font-family: 'Nunito', sans-serif;
 	font-weight: bold;
 	color: #131313;
   background-size: cover;
@@ -23,14 +22,13 @@ body {
 }
 
 header {
-	background-color: rgba(255,255,255,0.8);
+	background-color: #f6f6f6;
 	text-align: center;
 	padding: 3em;
 	box-shadow: 0 0 0 #e5e5e5,0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
 }
 
 header h1 {
-	font-family: 'Kameron', serif;
 	font-size: 3em;
 }
 
@@ -45,7 +43,6 @@ header span {
 }
 
 header p {
-	font-family: 'Nunito', sans-serif;
 	font-weight: 300;
 	margin-top: -6px;
 }
@@ -107,8 +104,7 @@ header p {
 	word-wrap: break-word;
 }
 
-.shopping-list li:hover,
-.add-item:hover {
+.shopping-list li:hover {
 	background-color: rgb(255,255,255);
 }
 
@@ -117,12 +113,16 @@ header p {
 }
 
 .add-item {
-	color: #131313;
 	width: 250px;
 	margin: 0px 10px;
 	text-align: center;
 	display: inline-block;
 	float: right;
+  font-size:15px;
+  background-color: #1e2835;
+  border-color: #404853;
+  background-image: linear-gradient(to bottom,rgba(246,246,246,.1)0%,rgba(30,40,53,0)66%);
+  color: #fafafa;
 }
 
 .item-check {
@@ -152,3 +152,4 @@ header p {
   background-size:cover;
   background-image: url('https://cdn.glitch.com/72548e86-2a07-45d1-9756-a034ea6672b3%2Fremove.png?1495684443965');
 }
+
