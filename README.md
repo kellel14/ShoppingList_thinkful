@@ -1,10 +1,9 @@
 Build a Shopping List app with Thinkful
 =========================
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
-
-Introduction
+Overview
 ==========
+- Click `Show Live` above to see your code changes
 - You will write your code in `public/client.js`
 - You might refer to `views/index.html` and `public/style.css`
 - You can ignore all the other files :)
@@ -16,8 +15,10 @@ Challenges
 When someone clicks `Add Item`, add the item in `item-input` to the `shopping-list`
 
 **Step 2: Remove an item**
+When someone clicks `X` on an item, remove that from the shopping list. Hint: you'll need to use "traversing".
 
-**Step 3: Add and remove "complete" class to item (when someone clicks the checkbox)**
+**Step 3: Add and remove a checkmark"**
+When you click on an item, add or remove the `complete` class to that item to add and remove the checkmark. The `complete` class is defined in your `style.css` file
 
 **More jQuery Challenges**
 - If you add an item with no text, it adds a blank box. This is a bug! Fix it.

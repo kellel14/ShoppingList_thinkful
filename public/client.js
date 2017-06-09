@@ -8,8 +8,7 @@ $(document).ready(function() {
 		  var listItem = //Use jQuery to grab the value of item-input
 		  var itemHtml = "<li class='items'><span class='item-check'></span><span class='item-text'>" + listItem + "</span><span class='item-remove'></span></li>";
       // Add the itemHtml section we created for you above to the shopping-list
-      // Remove the text from item-input
-      // Make sure your solution works by hitting "Show Live" in the nav bar
+      // Remove the text the user entered from item-input
 	});
 // -------------------
 
