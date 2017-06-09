@@ -18,7 +18,7 @@ $(function() {
 // This code is executed when someone clicks the "X" button
 // at the top right of the shopping-item
 	$(".shopping-list").on('click', '.item-remove', function(event) {
-      // Use $(this) to remove the shopping item from the shopping list
+      // Use event.currentTarget to remove the shopping item from the shopping list
 	});
 // -------------------
   
@@ -26,7 +26,7 @@ $(function() {
 // This code is executed when someone clicks the checkbox in the shopping-item section
 // -------------------
 	$(".shopping-list").on('click', '.item-check', function(event) {
-      // Use $(this) to add and remove the "complete" class to the checkbox
+      // Use event.currentTarget to add and remove the "complete" class to the checkbox
 	});
 // -------------------
 
