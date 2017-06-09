@@ -1,6 +1,8 @@
 $(document).ready(function() {
 
 // Step 1
+// This code is executed when someone clicks the "Add Item" button 
+// at the top right of the shopping-item
 // -------------------
 	$(".add-item").on('click', function(event) {
 		  var listItem = //Use jQuery to grab the value of item-input
@@ -14,13 +16,15 @@ $(document).ready(function() {
 
 // Step 2
 // -------------------
-// This event starts when someone clicks the "X" button on the top right
+// This code is executed when someone clicks the "X" button
+// at the top right of the shopping-item
 	$(".shopping-list").on('click', '.item-remove', function(event) {
       // Use $(this) to remove the shopping item from the shopping list
 	});
 // -------------------
   
 // Step 3
+// This code is executed when someone clicks the checkbox in the shopping-item section
 // -------------------
 	$(".shopping-list").on('click', '.item-check', function(event) {
       // Use $(this) to add and remove the "complete" class to the checkbox
@@ -28,3 +32,8 @@ $(document).ready(function() {
 // -------------------
 
 });
+
+//Additional Challenges
+//If you add an item with no text, it adds a blank box. This is a bug! Fix it.
+//Use jQuery to animate the adding and removing of items
+//Add a counter that tells the user how many items are in your shopping list
