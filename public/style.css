@@ -114,7 +114,7 @@ header p {
 
 .add-item {
 	width: 250px;
-	margin: 0px 10px;
+	margin: 0px 0px;
 	text-align: center;
 	display: inline-block;
 	float: right;
