@@ -25,14 +25,8 @@ When you click on an item, add or remove the `complete` class to that item to ad
 - Use jQuery to animate the adding and removing of items
 - Add a counter that tells the user how many items are in your shopping list
 
-Some Extra Help
+Helpful Links
 ==========
-**Things you might want to Google**
-- What is `var` in Javascript? If you don't know, make sure to Google it!
-- Your Javascript code is inside `$(document).ready(function() { })`. Why? 
-- For `Step 2` you might want to dig more into "traversing" with jQuery
-
-**Helpful Links**
 - [Overview of DOM](http://eloquentjavascript.net/13_dom.html)
 - [jQuery Basics](http://blog.teamtreehouse.com/beginners-guide-to-jquery)
 - [Selecting with jQuery](https://www.w3schools.com/jquery/jquery_selectors.asp)

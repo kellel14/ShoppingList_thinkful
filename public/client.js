@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(function() {
 
 // Step 1
 // This code is executed when someone clicks the "Add Item" button 
@@ -6,7 +6,7 @@ $(document).ready(function() {
 // -------------------
 	$(".add-item").on('click', function(event) {
 		  var listItem = //Use jQuery to grab the value of item-input
-		  var itemHtml = "<li class='items'><span class='item-check'></span><span class='item-text'>" + listItem + "</span><span class='item-remove'></span></li>";
+		  var itemHtml = "<li><span class='item-check'></span><span class='item-text'>" + listItem + "</span><span class='item-remove'></span></li>";
       // Add the itemHtml section we created for you above to the shopping-list
       // Remove the text the user entered from item-input
 	});
@@ -30,9 +30,8 @@ $(document).ready(function() {
 	});
 // -------------------
 
-});
-
 //Additional Challenges
 //If you add an item with no text, it adds a blank box. This is a bug! Fix it.
-//Use jQuery to animate the adding and removing of items
 //Add a counter that tells the user how many items are in your shopping list
+  
+});
