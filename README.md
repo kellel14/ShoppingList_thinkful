@@ -1,8 +1,6 @@
-Build a Shopping List app with Thinkful
-=========================
-
 Overview
 ==========
+- See working demo [here](https://unique-heart.glitch.me/)
 - Click `Show Live` above to see your code changes
 - You will write your code in `public/client.js`
 - You might refer to `views/index.html` and `public/style.css`
