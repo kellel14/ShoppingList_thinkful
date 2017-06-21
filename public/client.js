@@ -1,4 +1,4 @@
-https://thinkful-workshops.slides.com/jasjitsingh85/deck-5/edit$(function() {
+$(function() {
 
 // Step 1
 // This code is executed when someone clicks the "Add Item" button 
