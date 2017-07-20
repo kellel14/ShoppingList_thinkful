@@ -6,7 +6,7 @@ $(function() {
 // -------------------
 	$(".add-item").on('click', function(event) {
 		  event.preventDefault();
-      var listItem = // Complete this together
+      var listItem = $('.item-input').val()
 		  var itemHtml = "<li><span class='item-check'></span><span class='item-text'>" + listItem + "</span><span class='item-remove'></span></li>";
       // Add the itemHtml section we created for you above to the shopping-list
       // Remove the text the user entered from item-input
