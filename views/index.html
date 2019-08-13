@@ -1,13 +1,18 @@
 <html>
   <head>
+    
     <meta charset="UTF-8">
     <title>My Shopping List</title>
     <script src="https://code.jquery.com/jquery.min.js"></script>
     <link rel="stylesheet" href="/style.css" type="text/css">
     <script src="/client.js"></script>
   </head>
+  
+  
   <body>
+    
     <div class="container">
+      
       <header>
         <h1>My Shopping List</h1>
       </header>
@@ -20,6 +25,7 @@
         </label>
         
         <ul class="shopping-list">
+          $('.shopping-list').prepend(itemHtml);
           <!-- <li>Sample Item</li> -->
         </ul>
         
