@@ -15,6 +15,7 @@ $(function() {
 
       // Remove the text the user entered from item-input
       
+      
 	});
 // -------------------
 
