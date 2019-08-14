@@ -10,7 +10,11 @@ $(function() {
     console.log(listItem);
 		  var itemHtml = "<li><span class='item-check'></span><span class='item-text'>" + listItem + "</span><span class='item-remove'></span></li>";
       // Add the itemHtml section we created for you above to the shopping-list
+    
+      $('.shopping-list').prepend(itemHtml);
+
       // Remove the text the user entered from item-input
+      
 	});
 // -------------------
 
@@ -20,6 +24,8 @@ $(function() {
 // This code is executed when someone clicks the "X" button
 // at the top right of the shopping-item
 	$(".shopping-list").on('click', '.item-remove', function(event) {
+    $(event.currentTarget).remove();
+    
       // Use event.currentTarget to remove the shopping item from the shopping list
 	});
 // -------------------
@@ -29,6 +35,7 @@ $(function() {
 // -------------------
 	$(".shopping-list").on('click', '.item-check', function(event) {
       // Use event.currentTarget to add and remove the "complete" class to the checkbox
+    $(event.currentTarget).toggleClass('complete');
 	});
 // -------------------
 
